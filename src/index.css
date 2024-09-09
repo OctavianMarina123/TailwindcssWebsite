@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+  .padding-x{
+    @apply sm:px-10 px-5;
+  };
+  .padding-y {
+    @apply sm:py-24 py-12;
+  }
+  .max-container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+}
