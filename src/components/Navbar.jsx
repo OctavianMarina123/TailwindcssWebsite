@@ -17,7 +17,7 @@ const Navbar = () => {
                         // not to distort the image
                         className="object-contain w-8 sm:w-8"
                     />
-                    <h1 className="text-lg sm:text-xl font-semibold">tailwindcss</h1>
+                    <h1 className="text-lg sm:text-xl font-semibold text-gray-900">tailwindcss</h1>
                 </div>
                 <div className="sm:flex gap-2 hidden">
                     <ul className="flex gap-8 items-center">

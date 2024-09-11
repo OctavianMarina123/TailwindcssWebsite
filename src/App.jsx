@@ -6,6 +6,9 @@ export default function App() {
         <main>
             <Navbar/>
             <Hero/>
+            <div className="h-[200px] w-full bg-gray-50">
+
+            </div>
         </main>
     )
 }
